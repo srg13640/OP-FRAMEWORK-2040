@@ -1,0 +1,43 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+out.txt
+
+# Python test artifacts (if a tests/ tree is added later)
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Working / planning documents — local only, not meant for the public repo.
+# Uncomment these (remove them from here) if you later decide to ship plans.
+PLAN_*.md
+_HANDOFF_PROMPT.md
+WORKSPACE.md
+FILE_TREE.md
+3D_MCOO_NOTES.md
+
+# Dev screenshots — kept locally for diffing; not part of the repo.
+screenshots/
+_narr_phase*.png
+
+# Retired / reference HTML experiments kept on disk but not published.
+mcoo.html
+feedback_module.html
+
+# Reference / source material (doctrine PDFs, stakeholder correspondence) —
+# not included in the repo due to size + distribution considerations.
+doctrine and feedback/
+
+# IL5 transfer package — regenerable from the runtime files plus a RUN_ME.
+# Kept local so it can be tailored per environment.
+il5_transfer/
