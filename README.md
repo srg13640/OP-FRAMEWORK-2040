@@ -53,7 +53,18 @@ immediately when the lens changes.
 
 ---
 
-## Running it
+## Live link (phone / share)
+
+Once GitHub Pages is publishing from this repo, open:
+
+**https://srg13640.github.io/OP-FRAMEWORK-2040/**
+
+That URL works on iPhone Safari (and any modern browser). No install.
+If the link 404s, open the repo **Settings → Pages**, set Source to
+**GitHub Actions**, then re-run the **Deploy to GitHub Pages** workflow
+(or push to `main`).
+
+## Running it locally
 
 Because the Three.js loader uses native ES modules, the prototype **will
 not** work when opened directly via `file://`. You need a simple local
